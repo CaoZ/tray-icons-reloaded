@@ -20,7 +20,7 @@ export const TrayIndicator = GObject.registerClass(
 			this.add_child(this._indicators);
 
 			this._icon = new St.Icon({
-				icon_name: "view-more-horizontal",
+				icon_name: "go-next-rtl",
 				style_class: "system-status-icon",
 				reactive: true,
 				track_hover: true,
